@@ -1,0 +1,17 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "heralight", email = "heralight@users.noreply.github.com"},
+]
+dependencies = [
+    "litestar[jwt]>=2.2.1",
+    "guardpost[jwt]>=1.0.2",
+    "python-dotenv>=1.0.0",
+    "setuptools>=68.2.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
